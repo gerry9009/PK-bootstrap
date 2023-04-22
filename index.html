@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar">
+    <!--TODO: ------------------------------- NAVBAR --------------------------------->
+    <!-- NAVBAR -->
+    <!-- SCROLLSPY -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-sm navbar-light bg-light sticky-top"
+    >
+      <div class="container-xxl px-xxl-5">
+        <a class="navbar-brand" href="#">TTtravel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-sm-flex justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#discover">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--TODO: ------------------------------- HOME --------------------------------->
+    <!-- CAROUSEL -->
+    <div id="home" class="container-fluid p-0 overflow-hidden mb-5">
+      <div class="row row-cols-xxl-6">
+        <div class="col-xxl-10 offset-xxl-1">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://images.unsplash.com/photo-1614867415040-6682f5184a12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&h=700&q=80"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-2">Your Fantasy Vacations</h5>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col border-end">
+                        <p>10 years experience</p>
+                      </div>
+                      <div class="col border-end">
+                        <p>2K+ Happy Customer</p>
+                      </div>
+                      <div class="col"><p>4.9 Overall Rating</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&h=700&q=80"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-2">Your Fantasy Vacations</h5>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col border-end">
+                        <p>10 years experience</p>
+                      </div>
+                      <div class="col border-end">
+                        <p>2K+ Happy Customer</p>
+                      </div>
+                      <div class="col"><p>4.9 Overall Rating</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://images.unsplash.com/photo-1586902197503-e71026292412?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&h=700&q=80"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-2">Your Fantasy Vacations</h5>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col border-end">
+                        <p>10 years experience</p>
+                      </div>
+                      <div class="col border-end">
+                        <p>2K+ Happy Customer</p>
+                      </div>
+                      <div class="col"><p>4.9 Overall Rating</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 text-center">
+        <h5 class="text-warning text-uppercase">explore your dream</h5>
+      </div>
+      <div class="row text-center">
+        <h1 class="text-uppercase">We make awesome tours</h1>
+      </div>
+    </div>
+
+    <!--TODO: ------------------------------- DISCOVER --------------------------------->
+    <!-- CARDS -->
+    <div id="discover" class="mt-5 pt-5 px-lg-5">
+      <div class="container-lg">
+        <div class="row text-center">
+          <h2 class="text-secondary">Find your perfect destination</h2>
+        </div>
+        <div
+          class="row p-5 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4"
+        >
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-1">
+              <img
+                src="https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rio</h5>
+                <p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </p>
+                <p class="card-text">$550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--TODO: ------------------------------- BLOG --------------------------------->
+    <!--NAVS & TABS -->
+    <div id="blog" class="mt-5 pt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h3>Real Travel Story from Real People</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button
+                  class="nav-link active"
+                  id="nav-home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                >
+                  1
+                </button>
+                <button
+                  class="nav-link"
+                  id="nav-profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                >
+                  2
+                </button>
+                <button
+                  class="nav-link"
+                  id="nav-contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-contact"
+                  aria-selected="false"
+                >
+                  3
+                </button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+                tabindex="0"
+              >
+                <div class="container-xl p-1">
+                  <div
+                    class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"
+                  >
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/28.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/28.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/28.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/28.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/28.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+                tabindex="0"
+              >
+                <div class="container-xl">
+                  <div
+                    class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"
+                  >
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/10.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/8.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/30.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/5.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/1.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-contact"
+                role="tabpanel"
+                aria-labelledby="nav-contact-tab"
+                tabindex="0"
+              >
+                <div class="container-xl">
+                  <div
+                    class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"
+                  >
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/22.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/15.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/12.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/39.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card border-light mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Awesome trip</h5>
+                          <i
+                            class="bi bi-chat-left-quote fs-1 text-warning"
+                          ></i>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <div class="container mt-5">
+                            <div class="row row-cols-2 g-5">
+                              <div class="col">
+                                <img
+                                  src="https://randomuser.me/api/portraits/women/32.jpg"
+                                  alt="Anja"
+                                  class="rounded-circle w-75"
+                                />
+                              </div>
+                              <div class="col">
+                                <p class="fw-bold">Anja</p>
+                                <p>Blogger</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--TODO: ------------------------------- CONTACT --------------------------------->
+    <!-- FORMS -->
+    <div id="contact">
+      <div class="container py-5">
+        <div class="row text-center">
+          <h2>Do you have any questions?</h2>
+        </div>
+        <div class="row row-cols-lg-6">
+          <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+            <form>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="text@example.com"
+                />
+
+                <label for="email">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="message"
+                  name="message"
+                  style="height: 200px"
+                ></textarea>
+                <label for="message">Send a message</label>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-dark col-12 col-sm-2 offset-sm-10"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--TODO: ------------------------------- FOOTER --------------------------------->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; 2023 Buglyó Gergő</p>
+      </div>
+    </footer>
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
